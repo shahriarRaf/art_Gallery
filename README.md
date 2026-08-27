@@ -1,15 +1,19 @@
 # art_Gallery
 
-Android gallery app for viewing, uploading, and browsing art content with Firebase-backed authentication and storage.
+Android art gallery app for browsing, uploading, and discovering artwork with Firebase-backed authentication and storage.
 
-## What It Does
+## Overview
 
-- Lets users register and log in with Firebase Authentication.
-- Stores user profile data in Firebase Realtime Database.
-- Uploads art images and captions to Firebase Storage and Realtime Database.
-- Shows uploaded art in a RecyclerView with Glide image loading.
-- Lists art by artist from a public JSON API.
-- Opens external art resources from a curated list of websites.
+MyArtGallery combines login, registration, image upload, artist lookup, and external gallery browsing in one Android app.
+
+## Highlights
+
+- Firebase Authentication for user sign-up and login.
+- Firebase Realtime Database for storing user profiles and uploaded art metadata.
+- Firebase Storage for image uploads.
+- RecyclerView gallery rendering with Glide.
+- Artist-based browsing from a public JSON API.
+- Curated links to external art websites.
 
 ## Tech Stack
 
@@ -22,28 +26,28 @@ Android gallery app for viewing, uploading, and browsing art content with Fireba
 - Glide
 - Material Components
 
-## Main Screens
+## Key Screens
 
 - `MainActivity` for login
-- `RegistrationActivity` for new user signup
+- `RegistrationActivity` for account creation
 - `ControlFunction` for the main menu
-- `UploadActivity1` and `UploadActivity2` for gallery browsing and uploads
-- `EnterArtistName`, `ListOfArt`, and `DetailsOfArt` for artist-based browsing
-- `LinkActivity` for external art websites
+- `UploadActivity1` and `UploadActivity2` for viewing and uploading art
+- `EnterArtistName`, `ListOfArt`, and `DetailsOfArt` for artist browsing
+- `LinkActivity` for external art resources
 - `AboutActivity` for app information
 
 ## Project Diagram
 
 See [MYARTGALLERY_DIAGRAM.md](MYARTGALLERY_DIAGRAM.md) for the Mermaid flowchart and service diagram.
 
-## Setup
+## Getting Started
 
 1. Open the project in Android Studio.
 2. Sync Gradle dependencies.
-3. Make sure `google-services.json` is present in the `app/` module.
+3. Confirm `google-services.json` is present in the `app/` module.
 4. Run the `app` configuration on an emulator or Android device.
 
-## Notes
+## Repository Notes
 
 - The launcher activity is `MainActivity`.
 - The app targets API 34 and uses a minimum SDK of 24.
