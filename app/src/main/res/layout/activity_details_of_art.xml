@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@color/teal_700"
+    android:layout_height="match_parent"
+    tools:context=".DetailsOfArt">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="#191818"
+        android:textColorHighlight="#131212"
+        android:textColorHint="#151515"
+        android:textColorLink="#201F1F"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="#C30808"
+        android:textColorHighlight="#BC1D1D"
+        android:textColorHint="#C32727"
+        android:textColorLink="#AE1313"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FFC107"
+        android:textColorHint="#FFC107"
+        android:textColorLink="#FFC107"
+        android:textSize="20dp" />
+</LinearLayout>

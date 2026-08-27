@@ -1,0 +1,10 @@
+HISTORY:
+An art gallery is a room or a building in which visual art is displayed. In Western cultures from the mid-15th century, a gallery was any long, narrow covered passage along a wall, first used in the sense of a place for art in the 1590s.[1] The long gallery in Elizabethan and Jacobean houses served many purposes including the display of art. Historically, art is displayed as evidence of status and wealth, and for religious art as objects of ritual or the depiction of narratives. The first galleries were in the palaces of the aristocracy, or in churches. As art collections grew, buildings became dedicated to art, becoming the first art museums.
+ABOUT APP:
+Viewing art online is an improving experience.[citation needed] Ideally, art should appear exactly as it would if seen in the real world, but there are factors that limit the extent to which this is possible. In this app have several action.
+  1.You can add art in Firebase and Retrive it from firebase.
+  2.The art show in "Art Show"
+  3.Here have a lot of option online art Gallery.
+  4.You can search Artist name and it shows lot of art of each Artist.When you Click on  art it shows the art history.
+
+Finally,The Art Gallery bear the adress of Artistic mind.

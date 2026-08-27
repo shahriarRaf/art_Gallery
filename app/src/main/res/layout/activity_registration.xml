@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hello"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Name"
+        android:textColor="#171616"
+        android:textColorHighlight="#150202"
+        android:textColorHint="#130202"
+        android:textColorLink="#100F0F"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:textColor="#0E0D0D"
+        android:textColorHighlight="#131212"
+        android:textColorHint="#150101"
+        android:textColorLink="#131313"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#131313"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#130101"
+        android:textColorLink="#290404"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#0C0C0C"
+        android:textColorHighlight="#0E0202"
+        android:textColorHint="#130000"
+        android:textColorLink="#0B0A0A"
+        android:textSize="20dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="#121111"
+            android:textColorHighlight="#191818"
+            android:textColorHint="#0C0000"
+            android:textColorLink="#151313" />
+
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="#0E0101"
+            android:textColorHighlight="#0C0C0C"
+            android:textColorHint="#070707"
+            android:textColorLink="#090808" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textColor="#191717"
+            android:textColorHighlight="#131313"
+            android:textColorHint="#070707"
+            android:textColorLink="#0B0A0A" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Date of Birth (MM/DD/YYYY)"
+        android:textColor="#0B0A0A"
+        android:textColorHighlight="#1B1A1A"
+        android:textColorHint="#131111"
+        android:textColorLink="#131313"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up" />
+
+</LinearLayout>
